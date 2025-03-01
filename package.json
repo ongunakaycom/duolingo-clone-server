@@ -1,0 +1,19 @@
+{
+    "name": "duolingo-clone-server",
+    "version": "1.0.0",
+    "engines": {
+      "node": "22.x"
+    },
+    "dependencies": {},
+    "devDependencies": {},
+    "scripts": {
+      "start": "npm run dev --workspace backend",
+      "serve": "npm run serve --workspace frontend",
+      "build": "npm run build --workspace frontend"
+    },
+    "workspaces": [
+      "frontend",
+      "backend"
+    ]
+  }
+  
