@@ -1,4 +1,22 @@
 {
+  "name": "duolingo-vue-backend",
+  "version": "1.0.0",
+  "description": "Backend for Duolingo clone using Express and MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ongunakaycom/duolingo-vue-backend/issues"
+  },
+  "homepage": "https://github.com/ongunakaycom/duolingo-vue-backend#readme",
   "dependencies": {
     "bcryptjs": "^3.0.2",
     "cors": "^2.8.5",
@@ -9,26 +27,7 @@
     "mongoose": "^8.11.0",
     "sequelize": "^6.37.5",
     "serverless-http": "^3.2.0"
-  },  
-  "name": "duolingo-vue-backend",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ongunakaycom/duolingo-vue-backend.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/ongunakaycom/duolingo-vue-backend/issues"
-  },
-  "homepage": "https://github.com/ongunakaycom/duolingo-vue-backend#readme",
   "devDependencies": {
     "nodemon": "^3.1.9"
   },
