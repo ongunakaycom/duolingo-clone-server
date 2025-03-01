@@ -9,7 +9,7 @@
     "mongoose": "^8.11.0",
     "sequelize": "^6.37.5",
     "serverless-http": "^3.2.0"
-  },
+  },  
   "name": "duolingo-vue-backend",
   "version": "1.0.0",
   "description": "",
@@ -31,5 +31,8 @@
   "homepage": "https://github.com/ongunakaycom/duolingo-vue-backend#readme",
   "devDependencies": {
     "nodemon": "^3.1.9"
+  },
+  "engines": {
+    "node": "22.x"
   }
 }
