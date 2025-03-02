@@ -10,7 +10,7 @@ import LandingJumbotron from '@/components/LandingJumbotron.vue';
 import LandingFeatures from '@/components/LandingFeatures.vue';
 
 export default {
-  name: 'Home',
+  name: 'HomePage',
   components: {
     LandingJumbotron,
     LandingFeatures
