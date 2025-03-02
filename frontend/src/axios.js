@@ -33,7 +33,7 @@ axiosInstance.interceptors.response.use((response) => {
 
 // Sign-up function to handle user registration
 const signUp = (email, password) => {
-  return axiosInstance.post('/auth/signup', { email, password })
+  return axiosInstance.post('/backend/auth/signup', { email, password })
     .then(response => {
       console.log('Signup successful:', response.data);
       // Optionally, save the token to localStorage
@@ -50,7 +50,7 @@ const signUp = (email, password) => {
 
 // Login function to handle user authentication
 const login = (email, password) => {
-  return axiosInstance.post('/auth/login', { email, password })
+  return axiosInstance.post('/backend/auth/login', { email, password })
     .then(response => {
       console.log('Login successful:', response.data);
       // Optionally, save the token to localStorage
