@@ -2,11 +2,11 @@
   "version": 2,
   "builds": [
     {
-      "src": "frontend/dist/**",
+      "src": "frontend/dist/**/*",
       "use": "@vercel/static"
     },
     {
-      "src": "backend/api/**/*.js", 
+      "src": "backend/api/**/*.js",
       "use": "@vercel/node"
     }
   ],
@@ -14,10 +14,6 @@
     {
       "src": "/(.*)",
       "dest": "/frontend/dist/$1"
-    },
-    {
-      "src": "/api/(.*)",
-      "dest": "/backend/api/$1"
     }
   ]
 }
