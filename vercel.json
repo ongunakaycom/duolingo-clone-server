@@ -1,15 +1,5 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "frontend/dist/**/*",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "backend/api/**/*.js",
-      "use": "@vercel/node"
-    }
-  ],
   "routes": [
     {
       "src": "/(.*)",
