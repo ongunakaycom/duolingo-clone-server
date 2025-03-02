@@ -6,8 +6,9 @@
 </template>
 
 <script>
-import LandingJumbotron from '@/components/LandingJumbotron.vue';
-import LandingFeatures from '@/components/LandingFeatures.vue';
+import LandingJumbotron from '../components/LandingJumbotron.vue';
+import LandingFeatures from '../components/LandingFeatures.vue';
+
 
 export default {
   name: 'HomePage',
