@@ -4,7 +4,7 @@ This directory is a brief example of a [Vue.js](https://vuejs.org/) app that can
 
 ## Deploy Your Own
 
-Deploy your own Vue.js project with Vercel.
+Deploy your own Vue.js project with Vercel
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/framework-boilerplates/vue&template=vue)
 
