@@ -1,6 +1,6 @@
 module.exports = {
   publicPath: process.env.NODE_ENV === 'production' ? '/' : '/',
-  outputDir: 'frontend/dist',  // Vue build will output here
+  outputDir: '../dist',  
   productionSourceMap: false,
   css: {
     extract: true,
