@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create an axios instance to centralize API requests
 const axiosInstance = axios.create({
-  baseURL: 'https://duolingo-vue-backend.vercel.app', // Set the correct backend URL
+  baseURL: 'http://duolingo-clone-server.vercel.app/', // Set the correct backend URL
   headers: {
     'Content-Type': 'application/json',
   },
