@@ -51,5 +51,5 @@ export default {
 </script>
 
 <style scoped>
-@import '../../src/assets/css/language-selection.css';
+@import '../components/language-selection.css';
 </style>

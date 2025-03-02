@@ -17,7 +17,7 @@
 
 <script>
 export default {
-  name: 'LandingPage'
+  name: 'LandingFeatures'
 };
 </script>
 
